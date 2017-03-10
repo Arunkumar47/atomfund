@@ -92,7 +92,7 @@ nav a{
 }
 
 .profile > .ProfilePhoto{
-	background-image: url("../image/ProfilePhoto.png");
+	background-image: url("../image/profilephoto.png");
 	width: 70px;
 	height: 70px;
 	margin-top: 40px;
