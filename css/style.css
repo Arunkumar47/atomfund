@@ -1,0 +1,414 @@
+body{
+	background-color: #f7f7f7;
+}
+
+.topbar{
+	width: 80%;
+	height: 80px;
+	padding: 0 10% 0 10%;
+	border-bottom: 2px solid #e6e6e6;
+	margin: 0 auto;
+	max-width: 1110px;
+	min-width: 600px;
+	background-color: white;
+}
+
+.nav{
+	width: 100%;
+	float: left;
+}
+
+
+.logo{
+	margin-top: 25px;
+	float: left;
+}
+
+nav{
+	margin-top: 32px;
+	margin-bottom: 31px;
+	float: left;
+}
+
+nav a{
+	margin-left: 28px;
+	font-family: 'Nunito', sans-serif;
+	color: #50565b;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+}
+
+.logout{
+	width: 137px;
+	height: 40px;
+	float: right;
+	background-color: #0091ea;
+	border-radius: 5px;
+	border: 0;
+	margin-top: 20px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.withdraw, .investNow{
+	width: 157px;
+	height: 40px;
+	background-color: #0091ea;
+	border-radius: 5px;
+	border: 0;
+	margin-top: 20px;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	position: relative;
+	left: 50%;
+	transform: translate(-179px, 0);
+	margin-top: 40px;
+}
+
+.investNow{
+	margin-left: 25px;
+}
+
+
+.profile{
+	width: 80%;
+	min-height: 150px;
+	background-color: white;
+	margin: 0 10% 0 10%;
+	border-bottom: 2px solid #e6e6e6;
+	box-sizing: border-box;
+	overflow: hidden;
+	max-height: 400px;
+	border-radius: 0 0 5px 5px;
+}
+
+.profile > .ProfilePhoto{
+	background-image: url("../image/ProfilePhoto.png");
+	width: 70px;
+	height: 70px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-radius: 35px;
+	margin-left: 30px;
+	float: left;
+}
+
+.profileName{
+	margin-left: 12px;
+	color: #50565b;
+	margin-top: 50px;
+	float: left;
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 22px;
+	margin: 0;
+	color: #31333c;
+}
+
+p{
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	margin: 5px 0 0;
+	color: #50565b;
+	font-weight: 600;
+}
+
+.zerofees, .automatedInvestment, .tax{
+	background-image: url("../image/zerofees.png");
+	width: 50px;
+	height: 50px;
+	margin: 50px 0 50px 75px;
+	float: left;
+	border-radius: 50px;
+}
+
+.contentOne, .contentTwo, .contentThree{
+	float: left;
+	margin-left: 10px;
+	margin: 57px 0 57px 10px;
+}
+
+.automatedInvestment{
+	background-image: url("../image/ai.png");
+	margin-left: 30px;
+}
+
+.tax{
+	background-image: url("../image/tf.png");
+	margin-left: 30px;
+}
+
+.zc{
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+}
+
+.summary{
+	width: 80%;
+	min-height: 232px;
+	background-color: white;
+	margin: 16px 10% 0 10%;
+	border-bottom: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	overflow: hidden;
+	max-height: 400px;
+	border-radius: 5px;
+}
+
+.headingIS{
+	margin-top: 45px;
+	text-align: center;
+}
+
+.paraSI{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.rule1, .rule2{
+	margin-top: 40px;
+	font-size: 12px;
+	color: #50565b;
+}
+
+.rule2{
+	margin-top: 5px;
+}
+
+.values{
+	position: relative;
+	width: 100%;
+	margin-top: 45px;
+}
+
+.valueOne, .valueTwo, .valueThree{
+	position: relative;
+	width: 33.33%;
+	height: 40px;
+	float: left;
+}
+
+.values h2{
+	position: relative;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	text-align: left;
+	left: 50%;
+	transform: translate(-25%, 0%); 
+}
+
+.topValue{
+	font-size: 18px;
+	color: #50565b;
+}
+
+.values .amount{
+	margin-top: 10px;
+	font-size: 28px;
+	color: #31333c;
+	font-weight: 400;
+}
+
+.amount span{
+	font-size: 20px;
+}
+
+.portfolioComposition{
+	width: 80%;
+	background-color: white;
+	margin: 16px 10% 0 10%;
+	border-bottom: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 5px;
+	height: 547px;
+}
+
+.statistics{
+	position: relative;
+	width: 916px;
+	height: 236px;
+	border: 1px solid #e6e6e6;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+.boxOne{
+	position: relative;
+	width: 25%;
+	height: 100%;
+	float: left; 
+}
+
+.circleGrey, .circleBlue, .circleWhite, .circleGreen{
+	position: relative;
+	width: 180px;
+	height: 180px;
+	background-color: #e8e8e8;
+	border-radius: 180px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.circleGreen{
+	position: absolute;
+	background-color: #17c3a0;
+}
+
+.clipGreen{
+	position: absolute;
+	clip-path: polygon(125% 0%, 50% 0%, 50% 100%, 0% 100%);
+}
+
+
+.circleBlue{
+	position: absolute;
+	background-color: #0091ea;
+}
+
+.circleWhite{
+	width: 116px;
+	height: 116px;
+	background-color: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.debt{
+	position: absolute;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	padding-top: 50px;
+	text-align: center;
+	left: 20%;
+	transform: translate(0%, 0%);
+}
+
+
+.clipGrey{
+	position: absolute;
+	clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%);
+}
+
+.clipBlue{
+	position: absolute;
+	clip-path: polygon(50% 0%, 50% 100%, 100% 100%, 100% 0%);
+}
+
+.boxTwo{
+	position: relative;
+	width: 75%;
+	height: 180px;
+	float: left 
+}
+
+.cOne{
+	position: relative;
+	width:  50%;
+	height: 50%;
+	font-family:  'Nunito', sans-serif;
+	float: left;
+}
+
+.bullet, .bullet2{
+	margin-left: 34px;
+	margin-top: 42px;
+	width: 10px;
+	height: 10px;
+	background-color: #0091ea;
+	border-radius: 10px;
+	float: left;
+}
+
+.bullet2{
+	background-color: #17c3a0;
+}
+
+
+.planOne{
+	margin-top: 40px;
+	margin-left: 52px;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: #50565b;
+	font-weight: 400;
+}
+
+.interest{
+	margin-left: 52px;
+	margin-top: 6px;
+	font-family:'Nunito', sans-serif;
+	color: #31333c;
+	font-size: 20px;
+}
+
+.bottombar{
+	width: 80%;
+	height: 160px;
+	padding: 0 10% 0 10%;
+	margin:  auto 0;
+	max-width: 1110px;
+	min-width: 600px;
+}
+
+.navFoo a{
+	margin-left: 25px;
+	font-family: 'Nunito', sans-serif;
+	color: #50565b;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.navFoo a:first-child{
+	margin-left: 0;
+}
+
+
+.navFoo nav{
+	margin-top: 45px;
+	margin-bottom: 0;
+}
+
+.paraSI{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.footerTerms{
+	margin-top: 25px;
+	font-size: 12px;
+	color: #50565b;
+	float: left;
+	width: 500px;
+}
+
+.socialNet{
+	float: right;
+	margin-top: 30px;
+	height: 30px
+}
+
+.socialNet a{
+	float: right;
+	margin-left: 30px;
+}
+
+.link{
+	color: #0091ea;
+	font-weight: 600;
+}
